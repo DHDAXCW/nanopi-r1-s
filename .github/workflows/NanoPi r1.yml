@@ -22,7 +22,7 @@ env:
 
 jobs:
   Build:
-    runs-on: self-hosted
+    runs-on: ubuntu-20.04
     if: github.repository == 'DHDAXCW/nanopi-r1-s'
     outputs:
       OPENWRTROOT: ${{ steps.update.outputs.OPENWRTROOT }}
@@ -171,7 +171,7 @@ jobs:
         
   Upload:
     needs: [Build]
-    runs-on: self-hosted
+    runs-on: ubuntu-20.04
     if: github.repository == 'DHDAXCW/nanopi-r1-s'
     steps:
       - name: Checkout
