@@ -11,7 +11,7 @@ Subject: [PATCH] add pwm-fan node for NanoPi R4S
 diff --git a/target/linux/rockchip/patches-5.4/994-rockchip-add-pwm-fan-node-for-NanoPi-R4S.patch b/target/linux/rockchip/patches-5.4/994-rockchip-add-pwm-fan-node-for-NanoPi-R4S.patch
 new file mode 100644
 index 000000000..2aeb783f0
---- /dev/null
+--- /dev/nulledfvefvefve reverv erevqevdsvqer fdsvcqerwf edqcerfev
 +++ b/target/linux/rockchip/patches-5.4/994-rockchip-add-pwm-fan-node-for-NanoPi-R4S.patch
 @@ -0,0 +1,31 @@
 +From f75170144fca4635f84ddae90ffefac41663b1cd Mon Sep 17 00:00:00 2001
